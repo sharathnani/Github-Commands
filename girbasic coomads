@@ -3,8 +3,16 @@
 git config --global user.name "Your Name"
 git config --global user.email "your-email@example.com"    
 
+git config user.name "Your Name"
+git config user.email "your.email@example.com"
+
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
+
 #initilizing Repository
 git init
+
+git init MyProject
 
 #Cloning a Repository
 git clone <repository-url>
@@ -14,6 +22,7 @@ git status
 
 #Adding Files to the Staging Area:
 git add <file-name>
+git add file1.txt file2.txt
 git add .  #for all file
 
 
@@ -28,3 +37,14 @@ git --version
 
 #Push Changes
 git push origin master(or) main
+git push origin branch-name
+git push --all
+
+#git status check
+git status
+
+#git branch to change brach or create branch
+git branch
+
+#megre the changes
+git merge branch
