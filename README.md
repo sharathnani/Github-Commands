@@ -19,7 +19,7 @@ The git diff command helps in viewing the merge conflicts against the base file.
 
 git diff
 
-#Git Command-Line Interface (CLI)
+# Git Command-Line Interface (CLI)
 
 
 git init: Initializes a new Git repository.
