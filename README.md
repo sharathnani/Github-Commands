@@ -1,32 +1,13 @@
-# Github-Commands
-
-# Configuring Git for the First Time
-
-git config --global user.name "Your Name"
-git config --global user.email "your-email@example.com"    
-
-#initilizing Repository
-git init
-
-#Cloning a Repository
-git clone <repository-url>
-
-#Checking the Status
-git status
-
-#Adding Files to the Staging Area:
-git add <file-name>
-git add .  #for all file
+#git remote
+The git remote command is used to manage connections between our local repository and remote repositories.
+git remote
 
 
-#Committing Changes
-git commit -m "Commit message"
+#git stash
+The git stash command is handy for saving changes that haven't been committed yet.
 
-#Viewing the Commit History
-git log
+git stash
 
-#Check whether git is installed or git status
-git --version
+The git stash pop command reapplies the stashed changes after using git stash.
 
-#Push Changes
-git push origin master(or) main
+git stash pop
