@@ -48,3 +48,10 @@ git branch
 
 #megre the changes
 git merge branch
+
+# git help
+$ git help
+$ git help -a
+$ git help --all
+$ git help <command>
+$ git help commit
