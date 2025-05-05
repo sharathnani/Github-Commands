@@ -1,5 +1,6 @@
 # git remote
 The git remote command is used to manage connections between our local repository and remote repositories.
+
 git remote
 
 
@@ -19,3 +20,8 @@ The git diff command helps in viewing the merge conflicts against the base file.
 git diff
 
 git diff --base <filename>
+
+# git reset
+The git reset command unstages a file from the staging area.
+
+git reset <commit>
