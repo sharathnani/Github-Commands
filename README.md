@@ -1,4 +1,4 @@
-#git remote
+# git remote
 The git remote command is used to manage connections between our local repository and remote repositories.
 git remote
 
